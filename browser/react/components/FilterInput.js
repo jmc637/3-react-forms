@@ -3,7 +3,7 @@ import React from 'react';
 const FilterInput = (props) => {
   return (
     <form className="form-group" style={{marginTop: '20px'}}>
-      <input
+      <input onChange={props.collectInput}
         className="form-control"
         placeholder="Enter artist name"   
       />
